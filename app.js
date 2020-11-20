@@ -30,6 +30,6 @@ app.post("/get/lyrics", (req, res) => {
 });
 
 // server config
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   console.log("server started listening on port: 3000....");
 });
